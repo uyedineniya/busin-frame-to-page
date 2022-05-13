@@ -1,0 +1,121 @@
+html {
+  background-image: url("/imagens/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg");
+  background-position: 100vw;
+  background-position-x: center;
+  background-position-y: 900px;
+  overflow-x: hidden;
+  
+}
+.body-container{
+   background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.logo-text{
+   font-family: 'Mulish', sans-serif;
+   margin: 0px;
+}
+
+header{
+   height: 100px;
+   width: 100vw;
+   background-color: aliceblue;
+   box-shadow: 2px 1px 0px rgba(0, 0, 0, 0.2);
+}
+   .header-container{
+      display: flex;
+      justify-content: space-around;
+      height: 100%;
+      align-items: center;
+   }
+
+.header-container a {
+   text-decoration: none;
+   font-family: 'Mulish', sans-serif;
+}
+
+.menu-link{
+   font-family: 'Mukta', sans-serif;
+   color: black;
+}
+
+.serch-field{
+   display: flex;
+   border-style: solid;
+   border-color: black;
+   border-width: 5px;
+   
+}
+   .image-search{
+      width: 20px;
+      height: 20px;
+   }
+   .text-field{
+      border-style: none;
+      height: 25px;
+      border-bottom: 1px;
+      border-color: black;
+   }
+
+   .body-main{
+      width: 100vw;
+      height: 500px;
+   }
+
+   .body-main-infos{
+      width: 100vw;
+      height: 100vh;
+      background-color: aliceblue;
+   }
+
+   .main-text{
+      font-family: 'Roboto Condensed', sans-serif;
+      color: aliceblue;
+      font-size: 40px;
+      text-align: center;
+      margin-top: 0px;
+      padding-top: 50px;
+
+   }
+
+   .main-paragraph{
+      color:aliceblue;
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 20px;
+      text-align: center;
+   }
+
+   .button-read-more{
+      display: inline-block;
+      text-decoration: none;
+      color: aliceblue;
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 24px;
+      padding: 5px;
+      width: 180px;
+      text-align: center;
+      border-style: solid;
+      border-color: aliceblue;
+      border-width: 2px;
+   }
+
+   .button-read{
+      display:flex; 
+      justify-content: center;
+   }
+
+   .body-main a {
+      text-decoration: none;
+   }
+
+   .body-info{
+      text-align:center;
+   }
+
+   .body-info .paragraph{
+      color:dimgray;
+   }
+
+   .body-info .main-text{
+      color:dimgray;
+   }
